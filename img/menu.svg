@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="menu.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg2705"
+   version="1.1"
+   viewBox="0 0 4.7624998 3.7045772"
+   height="3.7045772mm"
+   width="4.7624998mm">
+  <defs
+     id="defs2699" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g3282"
+     inkscape:document-units="mm"
+     inkscape:cy="-2.5714141"
+     inkscape:cx="20.428571"
+     inkscape:zoom="3.959798"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2702">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-100.42827,-148.84702)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       style="stroke:none;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,99.634524,147.25952)"
+       id="g3282">
+      <path
+         style="stroke:none;stroke-opacity:1"
+         d="M 0,0 H 24 V 24 H 0 Z"
+         fill="none"
+         id="path3268" />
+      <path
+         style="fill:#e8eddf;fill-opacity:1;stroke:none;stroke-width:1.08018;stroke-opacity:1"
+         d="M 3,20.001552 H 21 V 17.66796 H 3 Z m 0,-5.83398 H 21 V 11.83398 H 3 Z M 3,6 V 8.3335919 H 21 V 6 Z"
+         id="path3270" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+}
+
+.container .logo {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+    padding-left: 5vw;
+}
+
+.container .menu {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+.menu {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 5vw;
+}
+
+.menu ul li {
+    text-decoration: none;
+    display: inline-block;
+    color: #E8EDDF;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+.menu ul li:hover {
+    background-color: #CFDBD5;
+    color: #242423;
+}
+
+.container .box1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(img/box2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box1 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 10vh 15vw;
+    background-color: #24242354;
+}
+
+.box1 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .box2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(img/box3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 10vh 5vw;
+    background-color: #24242354;
+}
+
+.box2 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .box3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(img/box4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 10vh 15vw;
+    background-color: #24242354;
+}
+
+.box3 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .box4 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #F5CB5C;
+}
+
+.box4 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 5vh 5vw;
+    background-color: #24242354;
+}
+
+.box4 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .box5 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(img/box5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box5 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 5vh 5vw;
+    background-color: #24242354;
+}
+
+.box5 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .box6 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(img/box6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box6 a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E8EDDF;
+    padding: 10vh 20vw;
+    background-color: #24242354;
+}
+
+.box6 a:hover {
+    background: #f5cc5c63;
+    color: #242423;
+    transition: 0.3s;
+}
+
+.container .rodapedesk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapedesk {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #E8EDDF;
+    font-family: 'Merriweather', serif;
+    font-size: 1vw;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.rodapedesk a {
+    color: #242423;
+    padding: 0 5vw 0 5vw;
+}
+
+.onlymob {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view */
+
+@media (max-width: 500px){
+
+    .container {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 10vh 30vh 30vh 20vh 10vh;
+    }
+
+    .container .menu {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu ul li {
+        display: none;
+    }
+
+    .container .box2 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url(img/box3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .box2 a {
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #E8EDDF;
+        padding: 10vh 7vw;
+        background-color: #24242354;
+    }
+
+    .container .box3 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url(img/box4.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .box3 a {
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #E8EDDF;
+        padding: 5vh 13vw;
+        background-color: #24242354;
+    }
+
+    .container .box4 {
+        display: none;
+    }
+    
+    .box4 {
+        display: none;
+    }
+    
+    .box4 a {
+        display: none;
+    }
+
+    .container .box5 {
+        display: none;
+    }
+    
+    .box5 {
+        display: none;
+    }
+    
+    .box5 a {
+        display: none;
+    }
+
+    .container .box6 {
+        display: none;
+    }
+    
+    .box6 {
+        display: none;
+    }
+    
+    .box6 a {
+        display: none;
+    }
+
+    .container .rodapedesk {
+        display: none;
+    }
+    
+    .rodapedesk {
+        display: none;
+    }
+    
+    .rodapedesk a {
+        display: none;
+    }
+
+    .container .onlymob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .onlymob {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background: #333533;
+        
+    }
+    
+    .onlymob a {
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #E8EDDF;
+        padding: 2vh 13vw 2vh 13vw;
+    }
+
+
+    
+
+}
